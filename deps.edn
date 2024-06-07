@@ -1,7 +1,6 @@
 {:paths ["src"]
  :deps {org.clojure/clojure {:mvn/version "1.11.3"}
-       org.clj-commons/pretty {:local/root "../pretty"}
-        #_ {:mvn/version "3.0.0"}}
+       org.clj-commons/pretty {:mvn/version "3.0.0"}}
 
  :aliases
  {;; clj -T:build <command>
